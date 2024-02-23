@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/LoginDetails', {
+mongoose.connect('mongodb+srv://root:root@cluster0.yc3bjtw.mongodb.net/LoginDetails', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
